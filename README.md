@@ -6,7 +6,7 @@ Welcome to my resume repository! This repo contains both the compiled PDF versio
 
 ## 📄 View / Download Resume
 
-👉 [Download Resume (PDF)](./your_resume.pdf)
+👉 [Download Resume (PDF)](./new.pdf)
 
 ---
 
@@ -14,15 +14,15 @@ Welcome to my resume repository! This repo contains both the compiled PDF versio
 
 I am a AI Engineer  with a focus on 
 
-* 💡 Skills: Python, Java, SQL, etc.
-* 🚀 Interests: AI, Web Development,
+* 💡 Skills: Python,SQL,C/C++
+* 🚀 Interests: AI,ML,Web Development,Data Anaylsis
 * 📍 Location: Chennai, India
 
 ---
 
 ## 📁 Repository Contents
 
-* `your_resume.pdf` → Final compiled resume
+* `new.pdf` → Final compiled resume
 * `Latex.txt` → Main LaTeX source file
 
 
@@ -37,8 +37,8 @@ To compile the resume online editor like Overleaf.
 ## 📬 Contact
 
 * Email: gokulat37@gmail.com
-* LinkedIn: https://linkedin.com/in/yourprofile
-* Portfolio: https://yourwebsite.com
+* LinkedIn: https://www.linkedin.com/in/gokul-c-j/
+
 
 ---
 
