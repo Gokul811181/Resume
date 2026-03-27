@@ -24,7 +24,7 @@ I am a AI Engineer  with a focus on
 
 * `new.pdf` → Previous compiled resume
 * `Latex.txt` → Previous LaTeX source file 
-* `new(2).pdf` → Final compiled resume
+* `Gokul.pdf` → Final compiled resume
 * `Latex(2).txt` → Main LaTeX source file
 
 
