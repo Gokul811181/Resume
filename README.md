@@ -6,7 +6,7 @@ Welcome to my resume repository! This repo contains both the compiled PDF versio
 
 ## 📄 View / Download Resume
 
-👉 [Download Resume (PDF)](./new.pdf)
+👉 [Download Resume (PDF)](./new(2).pdf)
 
 ---
 
@@ -22,8 +22,10 @@ I am a AI Engineer  with a focus on
 
 ## 📁 Repository Contents
 
-* `new.pdf` → Final compiled resume
-* `Latex.txt` → Main LaTeX source file
+* `new.pdf` → Previous compiled resume
+* `Latex.txt` → Previous LaTeX source file 
+* `new(2).pdf` → Final compiled resume
+* `Latex(2).txt` → Main LaTeX source file
 
 
 ---
@@ -41,6 +43,7 @@ To compile the resume online editor like Overleaf.
 
 
 ---
+This Resume has a score of 96 on enhancv
 
 ⭐ Feel free to fork or use this template if you find it helpful!
 
