@@ -1,0 +1,148 @@
+%-------------------------
+% Resume in Latex
+% Author: Gokul C J
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Gokul C J} \\ \vspace{4pt}
+    \textbf{\Large \scshape AI Engineer} \\ \vspace{4pt}
+        \href{mailto:gokulat37@gmail.com}{\faEnvelope\ \underline{gokulat37@gmail.com}} ~
+        \small \faPhone\ 91-8111813362 ~
+        \href{https://www.linkedin.com/in/gokul-c-j/}{\faLinkedin\ \underline{linkedin.com/in/gokulcj}} ~
+        \href{https://github.com/Gokul811181}{\faGithub\ \underline{Gokul C J}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+AI Engineer with a strong foundation in Python, Machine Learning, Deep Learning, and SQL.
+Skilled in building, training, and evaluating models, preprocessing data, and developing end-to-end AI pipelines. Experienced in applying algorithms to real-world problems and translating complex outputs into actionable insights. Interested in collaborating on impactful AI projects in fast-paced, innovative environments.
+
+%-----------SKILLS-----------
+\section{Skills}
+\textbf{Programming \& Querying:} Python, SQL, C/C++ \\
+\textbf{Data Analysis \& Machine Learning:} Data analysis, numerical computing, machine learning workflows \\
+\textbf{Tools \& Technologies:} GitHub, Power BI, MS Excel, Alteryx, data visualization \\
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Data Analyst Intern}{Dec 2024 -- Jan 2025}
+    {MACOM (On-site)}{Tools Used: Python, Excel, Power BI}
+    \resumeItemListStart
+      \resumeItem{Worked on Customer Churn Prediction using Python, Excel and Power BI for data analysis, modeling support and visualization.}
+      \resumeItem{Helped achieve \textbf{75\% model accuracy} by assisting in data preprocessing and feature analysis.}
+      \resumeItem{Supported the business in identifying at-risk customers, enabling better retention-focused decision-making.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+      {\textbf{MRI Evolution of Ischemic Stroke Lesion} $|$ \emph{Python}}{Oct 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Developed and implemented a hybrid deep learning pipeline to predict ischemic stroke lesion evolution from early-stage brain imaging data.}
+        \resumeItem{Built a robust medical image preprocessing workflow including skull stripping, stroke-specific windowing, and intensity normalization.}
+        \resumeItem{Executed transformer-based and CNN-based architectures to capture global spatial context and fine-grained lesion details.}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+      {\textbf{Ultimate Brick Pong Game} $|$ \emph{Python, Pygame}}{Jan 2025 -- Apr 2025}
+      \resumeItemListStart
+        \resumeItem{Built a Brick Pong game in Python using Pygame, implementing reinforcement learning--based decision logic for agent behavior.}
+        \resumeItem{Designed the game environment and reward structure to model agent--environment interaction and core RL principles.}
+        \resumeItem{Enforced collision detection, scoring systems, and real-time state updates for responsive gameplay.}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+      {\textbf{Powered Document Analysis System} $|$ \emph{SQL, Power BI}}{Jun 2025 -- Nov 2025}
+      \resumeItemListStart
+        \resumeItem{Built an AI-powered document analysis system that generates contextual opinions and insights from uploaded documents using NLP techniques.}
+        \resumeItem{Integrated blockchain-based verification to ensure document integrity and prevent tampering of analyzed data.}
+        \resumeItem{Built a modular system that scales for document handling and maintains clear records.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {B.Tech in Artificial Intelligence}{May: 2026}
+    {SRM University, Chennai}{CGPA: 7.4 / 10}
+\resumeSubHeadingListEnd
+      \resumeItemListStart
+        \resumeItem{\textbf{Relevant Coursework:} Calculus and Linear Algebra --- Advanced Calculus and Complex Analysis --- Probability and
+Statistics --- Discrete Mathematics --- Neural Networks and Machine Learning --- Deep Learning --- Reinforcement
+Learning - Data Structures and Algorithms --- Design and Analysis of Algorithms --- Operating Systems --- Database
+Management Systems --- Computer Networks --- Software Engineering and Project Management}
+      \resumeItemListEnd
+
+\end{document}
