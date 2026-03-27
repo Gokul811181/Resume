@@ -6,7 +6,7 @@ Welcome to my resume repository! This repo contains both the compiled PDF versio
 
 ## 📄 View / Download Resume
 
-👉 [Download Resume (PDF)](./new(2).pdf)
+👉 [Download Resume (PDF)](./Gokul.pdf)
 
 ---
 
